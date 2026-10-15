@@ -6,13 +6,11 @@
    ============================================================ */
 window.NAKWON_CONFIG = {
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",   // 예: https://프로젝트명-default-rtdb.asia-southeast1.firebasedatabase.app
-    projectId: "",
-    appId: ""
+    apiKey: "AIzaSyBaV7eIwWXuHr6K4W2-Yy3KQvrwyBz0pTE",
+    authDomain: "nakwonbrandingteam.firebaseapp.com",
+    databaseURL: "https://nakwonbrandingteam-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "nakwonbrandingteam",
+    appId: "1:413758001250:web:fbff9225cae065fd4f013b"
   },
-
-  // 리허설/본방송을 분리하려면 주소 뒤에 ?room=rehearsal 처럼 붙이세요.
   defaultRoom: "main"
 };
